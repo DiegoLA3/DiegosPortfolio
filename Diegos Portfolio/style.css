@@ -1,0 +1,173 @@
+*{
+	margin:  0;
+	padding:  0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.print-area{
+	width:  80%;
+	margin:  20px auto;
+}
+.print-area .header {
+	width:  100%;
+	height:  150px;
+	background-color: black;
+	display: flex;
+	align-items:  center;
+	position: relative;
+}
+.header-text{
+	color: white;
+	width: 60%;
+	margin-left: auto;
+}
+.header-text h1{
+	font-size: 60px;
+	font-weight: normal;
+	text-align: left;
+}
+.header-text p{
+	font-size: 20px;
+	color: lightgray;
+}
+.Information {
+	display: flex;
+	flex-wrap: wrap;
+}
+.left-side {
+	width: 30%;
+	background-color: lightgray;
+	align-items: center;
+}
+.left-side .contact-info{
+	margin-top: 10px;
+	padding:  0 75px;
+	text-align: center;
+}
+.contact-info h4{
+	font-size: 30px;
+	font-weight: normal;
+	margin: 20px 0;
+	text-align: center;
+}
+.contact-info h5 {
+	font-size: 18px;
+	margin:  10px 0;
+}
+
+.left-side .Skills {
+	margin-top: 10px;
+	padding:  0 75px;
+	text-align: center;
+}
+.Skills h4 {
+	font-size: 30px;
+	font-weight: normal;
+	margin: 20px 0;
+	text-align: center;
+}
+.Skills h5 {
+	font-size: 18px;
+	margin:  10px 0;
+}
+.Skills li {
+	font-weight: normal;
+	text-align: center;
+}
+.left-side .support {
+	mmargin-top: 10px;
+	padding:  0 75px;
+	text-align: center;
+}
+.support h4 {
+	font-size: 30px;
+	font-weight: normal;
+	margin: 20px 0;
+	text-align: center;
+}
+.support li {
+	font-weight: normal;
+	text-align: center;
+}
+.left-side .Honors {
+	margin-top: 10px;
+	padding:  0 75px;
+	text-align: center;
+}
+.Honors h4 {
+	font-size: 30px;
+	font-weight: normal;
+	margin: 20px 0;
+	text-align: center;
+}
+.Honors p{
+	font-size: 20px;
+	color: black;
+}
+.right-side {
+	width: 70%;
+	padding: 50px;
+	background-color: whitesmoke;
+
+}
+.right-side h1{
+	font-size: 35px;
+	font-weight: normal;
+}
+.right-side p{
+	padding-left: 70px;
+	text-align: justify;
+	word-break: break-all;
+	font-size: 20px;
+	color: black;
+	margin-top: 10px;
+}
+
+.experience {
+	margin: 20px 0;
+}
+
+.area {
+	margin: 20px 0;
+}
+
+.experience .area {
+	position: relative;
+}
+
+.area h3{
+	font-size: 22px;
+	font-weight: bold;
+	padding-left: 70px;
+}
+
+.area h4 {
+	font-size: 18px;
+	padding-left: 70px;
+	font-weight: normal;
+}
+
+.area li {
+	padding-left: 70px;
+	font-size: 20px;
+	color: black;
+	margin-top: 10px;
+}
+
+.coursework-skills {
+	margin: 20px 0;
+}
+
+.coursework-skills h1{
+	font-size: 35px;
+	font-weight: normal;
+}
+
+.coursework-skills li {
+	padding-left: 70px;
+	font-size: 20px;
+	color: black;
+	margin-top: 10px;
+}
+
+
